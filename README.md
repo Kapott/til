@@ -9,7 +9,7 @@ I don't think warrant blogging about.
 - [twitter geolocation dork](infosec/recon/twitter_dorks.md)
 
 ## Reverse engineering
-- [trace everything a file does](infosec/reverse-engineering/trace-everything-a-file-does.md)
+- [trace everything a file does](infosec/reverse_engineering/trace_everything_a_file_does.md)
 
 # Software development
 ## Java
@@ -18,9 +18,9 @@ I don't think warrant blogging about.
 ## Administration
 
 ## Bash
-- [Bash history tricks](sysadmin/bash/bash-history.md)
-- [Count specific lines in specific files in a directory](sysadmin/bash/bash-count-lines.md)
-- [Sorted list of unique words from textfile](sysadmin/bash/sorted-words-from-textfile.md)
+- [Bash history tricks](sysadmin/bash/bash_history.md)
+- [Count specific lines in specific files in a directory](sysadmin/bash/count_lines.md)
+- [Sorted list of unique words from textfile](sysadmin/bash/sorted_list_of_words_from_textfile.md)
 
 # Hardware
-- [Intel processor designators](hardware/intel_processor_designators_meaning.md)
+- [Intel processor designators](hardware/intel_proc_designators.md)
