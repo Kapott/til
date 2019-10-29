@@ -12,10 +12,18 @@ I don't think warrant blogging about.
 - [trace everything a file does](infosec/reverse_engineering/trace_everything_a_file_does.md)
 
 # Software development
-## Java
+- [productive coding](software_development/productive_coding.md)
+
+## Version control
+- [git](software_development/git/git.md)
+
+## JVM-based languages
+- [Scala build tool](software_development/jvm/sbt.md)
 
 # Sysadmin
 ## Administration
+- [ACL usage](sysadmin/administration/acl.md)
+- [Fast ram disk](sysadmin/administration/fast_ram_disk.md)
 
 ## Bash
 - [Bash history tricks](sysadmin/bash/bash_history.md)
