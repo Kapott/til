@@ -1,12 +1,16 @@
+# ACL usage
 
-`add acl to dir`
-setfacl -m g:groupname:rwx directory/
+add acl to dir
 
-`remove acl from dir`
-setfacl -b directory/
+    setfacl -m g:groupname:rwx directory/
 
-`check dir acl`
-getfacl directory/
+remove acl from dir
 
-ls-al will put a + behind ugw rights
+    setfacl -b directory/
 
+check dir acl
+
+    getfacl directory/
+
+Note:
+`ls -al` will put a + behind ugw rights when ACL is enabled.
