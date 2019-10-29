@@ -1,7 +1,7 @@
 # Notes
 
 These notes are little gems of knowledge I need to store somewhere, but which
-I don't think warrant a full blogpost about.
+I don't think warrant a full blogpost.
 
 # Infosec
 ## Recon
