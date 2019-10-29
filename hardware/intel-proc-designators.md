@@ -24,4 +24,3 @@ M - Mobile (primarly Xeon)
 Broadwell (5000 series
 R - High-end mobile (similar to H)
 C - Unlocked, based on LGA1150 same as K in other generations, and soldered on the board
-
