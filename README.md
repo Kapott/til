@@ -27,6 +27,7 @@ I don't think warrant blogging about.
 
 ## Bash
 - [Bash history tricks](sysadmin/bash/bash_history.md)
+- [Fast command line manipulation](sysadmin/bash/manipulating_commandline.md)
 - [Count specific lines in specific files in a directory](sysadmin/bash/count_lines.md)
 - [Sorted list of unique words from textfile](sysadmin/bash/sorted_list_of_words_from_textfile.md)
 
