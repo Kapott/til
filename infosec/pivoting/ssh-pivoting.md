@@ -2,13 +2,15 @@
 
 Pivoting through SSH
 
-- ControlMaster via SSH client config
+- [ControlMaster via SSH client config](#ctrlm_clientconfig)
 
-- ControlMaster via shell functions
+- [ControlMaster via shell functions](#ctrlm_shellfunction)
 
-- Hijacking `screen` sessions to create on-the-fly tunnels
+- [Hijacking `screen` sessions](#screen_hijacking)
 
-## ControlMaster via SSH client config
+- [SSH socket hijacking](#socket_hijacking)
+
+## <a name="ctrlm_clientconfig"></a>ControlMaster via SSH client config
 
 Alter the system-wide ssh config:
 
@@ -29,7 +31,7 @@ The master socket needs to be exited explicitly:
 
     ssh -O exit -S /tmp/pwnduser@10.0.1.51:22 %h
 
-## ControlMaster via shell functions
+## <a name="ctrlm_shellfunction"></a>ControlMaster via shell functions
 
 Depending on `$PATH`, you should be able to use this wrapper function to create sockets on behalf of the user.
 
@@ -40,7 +42,7 @@ ssh ()
 }
 ```
 
-## Hijacking screen sessions to create on-the-fly tunnels
+## <a name="screen_hijacking"></a>Hijacking screen sessions
 
 Check `/var/run/screen` or run `screen -r`. You can then `su - pwnduser` but you can't directly connect to the screen (can't open terminal error).
 
@@ -81,13 +83,13 @@ Then, the last piece of the puzzle is to create a local port on the intermediary
     The following connections are open:
     (...etc, this should have your forward in it)
 
-## Sockets
+## <a name="socket_hijacking"></a>Socket hijacking
 
 When Forward-Agent is used
 
 Find the SSHd process of the victim
 
-    ps uax|grep sshd
+    ps aux | grep sshd
 
 Looks for the SSH_AUTH_SOCK on victim's environment variables
 
