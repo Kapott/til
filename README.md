@@ -9,12 +9,26 @@ I don't think warrant a full blogpost.
 
 Knowledge is power. Recon takes information and this information can then be used and turned into actionable intelligence for an attack.
 
+- [fast box recon using masscan, nmap, nikto and gobuster](infosec/recon/fast_box_recon.md)
 - [how to clone an entire website with wget](infosec/recon/clone_website_with_wget.md)
 - [twitter geolocation dork](infosec/recon/twitter_dorks.md)
 
+## Gaining access
+
+- [zipslip tool : evilarc](https://github.com/ptoomey3/evilarc)
+
+- [magento tricks](infosec/gaining_access/magento.md)
+
+## Privilege escalation
+
+You're in. But you're a printer. Now, what do you do to free yourself from the dreadful task that entails talking to cups and filling white pages black letters all day long? 
+
+- [pspy](infosec/privesc/pspy.md)
+- [sudo abuse](infosec/privesc/sudo_abuse.md)
+
 ## Pivoting
 
-We have root, now we're looking to compromise other machines. These notes are about some of the pivots I learned about.
+We have root, now we're looking to compromise other machines. These notes are about some of the pivots I learned.
 
 - [SSH sockets](infosec/pivoting/ssh-pivoting.md)
 
