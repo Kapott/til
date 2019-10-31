@@ -8,6 +8,7 @@ These notes are little gems of knowledge I need to store somewhere, but which I 
 
 Knowledge is power. Recon takes information and this information can then be used and turned into actionable intelligence for an attack.
 
+- [Github](infosec/recon/github.md)
 - [Google dork collection](infosec/recon/google_dorks.md)
 - [Fast box recon using masscan, nmap, nikto and gobuster](infosec/recon/fast_box_recon.md)
 - [How to clone an entire website with wget](infosec/recon/clone_website_with_wget.md)
