@@ -1,7 +1,6 @@
 # Notes
 
-These notes are little gems of knowledge I need to store somewhere, but which
-I don't think warrant a full blogpost.
+These notes are little gems of knowledge I need to store somewhere, but which I don't think warrant a full blogpost.
 
 # Infosec
 
@@ -9,9 +8,10 @@ I don't think warrant a full blogpost.
 
 Knowledge is power. Recon takes information and this information can then be used and turned into actionable intelligence for an attack.
 
-- [fast box recon using masscan, nmap, nikto and gobuster](infosec/recon/fast_box_recon.md)
-- [how to clone an entire website with wget](infosec/recon/clone_website_with_wget.md)
-- [twitter geolocation dork](infosec/recon/twitter_dorks.md)
+- [Google dork collection](infosec/recon/google_dorks.md)
+- [Fast box recon using masscan, nmap, nikto and gobuster](infosec/recon/fast_box_recon.md)
+- [How to clone an entire website with wget](infosec/recon/clone_website_with_wget.md)
+- [Twitter dork collection](infosec/recon/twitter_dorks.md)
 
 ## Gaining access
 
@@ -21,7 +21,7 @@ Knowledge is power. Recon takes information and this information can then be use
 
 ## Privilege escalation
 
-You're in. But you're a printer. Now, what do you do to free yourself from the dreadful task that entails talking to cups and filling white pages black letters all day long? 
+You're in. But you're a printer. Now, what do you do to free yourself from the dreadful task that entails talking to cups and filling white pages black letters all day long?
 
 - [pspy](infosec/privesc/pspy.md)
 - [sudo abuse](infosec/privesc/sudo_abuse.md)
