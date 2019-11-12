@@ -2,10 +2,6 @@
 
 These notes are little gems of knowledge I need to store somewhere, but which I don't think warrant a full blogpost.
 
-
-
-
-
 # Infosec
 
 Breaking things. That's my definition of fun. Although infosec isn't just about pentesting and redteaming - it's what I love. Blue-team things are mostly stowed under 'sysadmin/network admin' in my mind. So if you're looking for hardening checklists etc. Go check the 'sysadmin' chapter ;)
@@ -38,10 +34,6 @@ Breaking things. That's my definition of fun. Although infosec isn't just about 
 
 - [trace everything a file does](infosec/reverse_engineering/trace_everything_a_file_does.md)
 
-
-
-
-
 # Software development
 
 Creating things. Robustly. Tested. Hopefully. It always struck me as odd that some very abstract and complicated concepts just seem to stick in my mind. But I can never remember what the git flag was for clearing whitespace on commit.
@@ -58,10 +50,6 @@ Creating things. Robustly. Tested. Hopefully. It always struck me as odd that so
 
 - [Scala build tool](software_development/jvm/sbt.md)
 
-
-
-
-
 # Sysadmin
 
 Things that have to do with system administration. Setting things up, configuring them and also all blue-team'ish things I need to do once in a while. And as every security pro knows, blue-teaming is just running through checklists, right? ;)
@@ -74,27 +62,20 @@ Things that have to do with system administration. Setting things up, configurin
 
 ## Bash
 
-- [Bash history tricks](sysadmin/bash/bash_history.md)
+- [Count specific lines in specific files](sysadmin/bash/count_lines.md)
 - [Fast command line manipulation](sysadmin/bash/manipulating_commandline.md)
-- [Count specific lines in specific files in a directory](sysadmin/bash/count_lines.md)
+- [History tricks](sysadmin/bash/bash_history.md)
+- [Redirecting output of programs](sysadmin/bash/redirecting_output.md)
 - [Sorted list of unique words from textfile](sysadmin/bash/sorted_list_of_words_from_textfile.md)
 
 ## Linux desktops
 
 - [Creating and using desktop icons](sysadmin/linux_desktops/desktop_icons.md)
 
-
-
-
-
 # Hardware
 
 Somtimes going back to the nitty gritty of the physical stuff is just a lot of fun. Whipping out chips and transistors and soldering things together might just be what the doctor ordered to get you through the gloomy season that is winter. Unless you live in SoCal, then you don't know what winter means.
 
-
-
 ## Processors
 
 - [Intel processor designators](hardware/intel_proc_designators.md)
-
-
