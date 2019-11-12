@@ -69,6 +69,6 @@ We have root, now we're looking to compromise other machines. These notes are ab
 
 - [Intel processor designators](hardware/intel_proc_designators.md)
 
-## LInux desktops
+## Linux desktops
 
 - [Creating and using desktop icons](sysadmin/linux_desktops/desktop_icons.md)
