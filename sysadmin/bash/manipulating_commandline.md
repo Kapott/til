@@ -16,9 +16,9 @@ Example
 
     kapott@alpha~: whoas byteherder.com
     Command 'whaos' was not found <...>
-
+    
     kapott@alpha~: ^a^i
-
+    
     Domain Name: BYTEHERDER.COM
      Registry Domain ID: 1901088509_DOMAIN_COM-VRSN
      Registrar WHOIS Server: whois.cloudflare.com

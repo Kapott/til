@@ -2,8 +2,6 @@
 
 [Massive collection of tools for performing github recon](http://10degres.net/github-tools-collection/)
 
-
-
 Any pushed code containing staging information or swaggerui? Save for SSRF is not accessable from outside the network.
 
     "Company" stage (staging, stg, dev, prod, qa, swagger)
@@ -18,4 +16,4 @@ Specific features such as login, signup, registration, admin, administrator, app
 
 Source:
 
-- zseano
+- zseano 
