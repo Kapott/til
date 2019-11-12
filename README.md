@@ -71,4 +71,4 @@ We have root, now we're looking to compromise other machines. These notes are ab
 
 ## LInux desktops
 
-- [Creating desktop icons](sysadmin/linux_desktops/desktop_icons.md)
+- [Creating and using desktop icons](sysadmin/linux_desktops/desktop_icons.md)
