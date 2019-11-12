@@ -16,15 +16,16 @@ Knowledge is power. Recon takes information and this information can then be use
 
 ## Gaining access
 
-- [zipslip tool : evilarc](https://github.com/ptoomey3/evilarc)
-
 - [magento tricks](infosec/gaining_access/magento.md)
+- [metasploit notes](infosec/gaining_access/metasploit.md)
+- [zipslip tool : evilarc](https://github.com/ptoomey3/evilarc)
 
 ## Privilege escalation
 
 You're in. But you're a printer. Now, what do you do to free yourself from the dreadful task that entails talking to cups and filling white pages black letters all day long?
 
 - [pspy](infosec/privesc/pspy.md)
+- [redis](infosec/privesc/redis.md)
 - [sudo abuse](infosec/privesc/sudo_abuse.md)
 
 ## Pivoting
@@ -55,6 +56,7 @@ We have root, now we're looking to compromise other machines. These notes are ab
 
 - [ACL usage](sysadmin/administration/acl.md)
 - [Fast ram disk](sysadmin/administration/fast_ram_disk.md)
+- [Processes](sysadmin/administration/process.md)
 
 ## Bash
 
@@ -66,3 +68,9 @@ We have root, now we're looking to compromise other machines. These notes are ab
 # Hardware
 
 - [Intel processor designators](hardware/intel_proc_designators.md)
+
+
+
+## LInux desktops
+
+- Creating desktop icons
