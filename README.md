@@ -78,7 +78,7 @@ Things that have to do with system administration. Setting things up, configurin
 
 # Hardware
 
-Somtimes going back to the nitty gritty of the physical stuff is just a lot of fun. Whipping out chips and transistors and soldering things together might just be what the doctor ordered to get you through the gloomy season that is winter. Unless you live in SoCal, then you don't know what winter means.
+Somtimes going back to the nitty gritty of the physical stuff is just a lot of fun. Whipping out chips and transistors and soldering things together might just be what the doctor ordered to get you through the gloomy season that is winter.
 
 ## Processors
 
