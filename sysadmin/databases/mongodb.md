@@ -40,7 +40,7 @@ db.createUser({
 });
 ```
 
-#### Create database admin
+### Create database admin
 
 Suited for CRUD in collections, so use within applications.
 
