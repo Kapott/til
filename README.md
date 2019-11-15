@@ -68,6 +68,10 @@ Things that have to do with system administration. Setting things up, configurin
 - [Redirecting output of programs](sysadmin/bash/redirecting_output.md)
 - [Sorted list of unique words from textfile](sysadmin/bash/sorted_list_of_words_from_textfile.md)
 
+## Databases
+
+- [MongoDB](sysadmin/databases/mongodb.md)
+
 ## Linux desktops
 
 - [Creating and using desktop icons](sysadmin/linux_desktops/desktop_icons.md)
