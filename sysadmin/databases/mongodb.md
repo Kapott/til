@@ -1,6 +1,6 @@
 # Mongodb
 
-This guide is meant for 3.4+
+Notes aimed at 3.4+
 
 ## Gotcha's
 
@@ -103,8 +103,6 @@ rs.add({
 
 where n is the array index of the new member in the members array.
 
-
-
 ## Docker, mongo and EBS
 
 1. Move docker image/container directory to EBS volume mount
@@ -135,19 +133,19 @@ docker network create mongonet
 
 # Here we start our main MongoDB instances in 3.6.3
 docker run -d -p 27017:27017 -v $(pwd)/data/db1:/data/db1 \
-	-u 1000:1000 -h mongo1 --network mongonet \
-	--network-alias mongo1 --name mongo1 \
-	mongo:3.6.3 --dbpath /data/db1 --replSet replicaTest --bind_ip_all --logpath /data/db1/mongod.log
+    -u 1000:1000 -h mongo1 --network mongonet \
+    --network-alias mongo1 --name mongo1 \
+    mongo:3.6.3 --dbpath /data/db1 --replSet replicaTest --bind_ip_all --logpath /data/db1/mongod.log
 
 docker run -d -p 27018:27017 -v $(pwd)/data/db2:/data/db2 \
-	-u 1000:1000 -h mongo2 --network mongonet \
-	--network-alias mongo2 --name mongo2 \
-	mongo:3.6.3 --dbpath /data/db2 --replSet replicaTest --bind_ip_all --logpath /data/db2/mongod.log
+    -u 1000:1000 -h mongo2 --network mongonet \
+    --network-alias mongo2 --name mongo2 \
+    mongo:3.6.3 --dbpath /data/db2 --replSet replicaTest --bind_ip_all --logpath /data/db2/mongod.log
 
 docker run -d -p 27019:27017 -v $(pwd)/data/db3:/data/db3 \
-	-u 1000:1000 -h mongo3 --network mongonet \
-	--network-alias mongo3 --name mongo3 \
-	mongo:3.6.3 --dbpath /data/db3 --replSet replicaTest --bind_ip_all --logpath /data/db3/mongod.log
+    -u 1000:1000 -h mongo3 --network mongonet \
+    --network-alias mongo3 --name mongo3 \
+    mongo:3.6.3 --dbpath /data/db3 --replSet replicaTest --bind_ip_all --logpath /data/db3/mongod.log
 
 sleep 2
 
