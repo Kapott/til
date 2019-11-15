@@ -26,7 +26,7 @@ Notes aimed at 3.4+
     
     - `rs.reconfig(c)`
 
-### Create superuser
+## Create superuser
 
 User which also has system-wide superuser access.
 
@@ -40,7 +40,7 @@ db.createUser({
 });
 ```
 
-### Create database admin
+## Create database admin
 
 Suited for CRUD in collections, so use within applications.
 
