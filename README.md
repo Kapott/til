@@ -2,6 +2,10 @@
 
 These notes are little gems of knowledge I need to store somewhere, but which I don't think warrant a full blogpost.
 
+**Word of warning:**
+
+Some of these ntoes are really rough drafts and still need some smoothing to be useful to anyone but me. When I find new information I usually jot down the keynotes, and then revisit it later. When I revisit, I try to tell myself (or someone else) how it works by using the keynotes. And that's when things get refined (a bit). 
+
 # Infosec
 
 Breaking things. That's my definition of fun. Although infosec isn't just about pentesting and redteaming - it's what I love. Blue-team things are mostly stowed under 'sysadmin/network admin' in my mind. So if you're looking for hardening checklists etc. Go check the 'sysadmin' chapter ;)
@@ -16,12 +20,15 @@ Breaking things. That's my definition of fun. Although infosec isn't just about 
 
 ## Gaining access
 
+- [docker escaping](infosec/gaining_access/escaping_docker.md)
 - [magento tricks](infosec/gaining_access/magento.md)
 - [metasploit notes](infosec/gaining_access/metasploit.md)
 - [zipslip tool : evilarc](https://github.com/ptoomey3/evilarc)
 
 ## Privilege escalation
 
+- [exploitable binaries (list)](infosec/privesc/exploitable_binaries.md)
+- [password crackers (list)](infosec/privesc/online_password_crackers.md)
 - [pspy](infosec/privesc/pspy.md)
 - [redis](infosec/privesc/redis.md)
 - [sudo abuse](infosec/privesc/sudo_abuse.md)
@@ -33,6 +40,20 @@ Breaking things. That's my definition of fun. Although infosec isn't just about 
 ## Reverse engineering
 
 - [trace everything a file does](infosec/reverse_engineering/trace_everything_a_file_does.md)
+
+## Webhacking
+
+- [content security policy](infosec/webhacking/content_security_policy.md)
+
+- [dom clobbering](infosec/webhacking/dom_clobbering.md)
+
+- [http_headers](infosec/webhacking/http_headers.md)
+
+- [iframes](infosec/webhacking/http_headers.md)
+
+- [mXSS](infosec/webhacking/mxss.md)
+
+- [XSS Auditor (deprecated)](infosec/webhacking/xss_auditor.md)
 
 # Software development
 
@@ -57,6 +78,7 @@ Things that have to do with system administration. Setting things up, configurin
 ## Administration
 
 - [ACL usage](sysadmin/administration/acl.md)
+- [cgroups](sysadmin/administration/cgroups.md)
 - [Fast ram disk](sysadmin/administration/fast_ram_disk.md)
 - [Processes](sysadmin/administration/process.md)
 
@@ -67,6 +89,7 @@ Things that have to do with system administration. Setting things up, configurin
 - [History tricks](sysadmin/bash/bash_history.md)
 - [Redirecting output of programs](sysadmin/bash/redirecting_output.md)
 - [Sorted list of unique words from textfile](sysadmin/bash/sorted_list_of_words_from_textfile.md)
+- [String operations, assorted](sysadmin/bash/string_operations.md)
 
 ## Databases
 
