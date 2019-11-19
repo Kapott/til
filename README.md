@@ -4,7 +4,7 @@ These notes are little gems of knowledge I need to store somewhere, but which I 
 
 **Word of warning:**
 
-Some of these ntoes are really rough drafts and still need some smoothing to be useful to anyone but me. When I find new information I usually jot down the keynotes, and then revisit it later. When I revisit, I try to tell myself (or someone else) how it works by using the keynotes. And that's when things get refined (a bit). 
+Some of these notes are really rough drafts and still need some smoothing to be useful to anyone but me. When I find new information I usually jot down the keynotes, and then revisit it later. When I revisit, I try to tell myself (or someone else) how it works by using the keynotes. And that's when things get refined (a bit). 
 
 # Infosec
 
