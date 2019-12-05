@@ -26,6 +26,16 @@ Notes aimed at 3.4+
     
     - `rs.reconfig(c)`
 
+## Search / query stuff
+
+Full-text regex search example:
+
+```javascript
+db.getCollection('MyCollection').find({"email":{$regex:".*foo.*"}})
+```
+
+
+
 ## Create superuser
 
 User which also has system-wide superuser access.
