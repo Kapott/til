@@ -12,7 +12,17 @@ Docker in docker is fairly common. To do this the host's docker socket has to be
 
 The `--privileged` flag exploit relies on relaunching a docker container with this flag. When using this flag, containers have full access to all devices and lack restrictions from sccomp, AppArmor and Linux capabilities
 
+But the `--privileged` flag is overkill, the only needed requirements are:
 
+- Have root in container
+
+- Container must be run with the `SYS_ADMIN`  Linux capability
+
+- Container  must lack AppArmor profile, or otherwise allow the `mount` syscall
+
+- The cgroup v1 virtual filesystem mst be mounted read-write inside the container
+
+By default, docker starts with restricted set of capabilities (doesnt include SYS_ADMIN), and default AppArmor profile is `docker-default`, which prevents the mount syscall.
 
 Default unix socket:
 
