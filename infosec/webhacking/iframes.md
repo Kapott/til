@@ -12,15 +12,11 @@ Get document's iframes
 
 If there is no origin check when message sent from the parent via postMessage, check if you can use the postMessage as a gadget to manipulate the behaviour of the enclosed site.
 
-
-
 `No X-Frame-Options header`
 
 This means the victim site can be embedded as an iframe. If that victim site has an iframe in it (e.g. Recaptcha). You can then control, for instance,  the `src` of an iframe using the attacker's to manipulate the victim's site's iframe. This does not violate same-origin policy. 
 
 You can also do stuff like DOM Clobbering on the victim site using this technique, by changing the name or id of the victm site's iframe.
-
-
 
 `allow-scripts and allow-same-origin on page.origin == iframe.origin sites.`
 

