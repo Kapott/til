@@ -34,8 +34,6 @@ Full-text regex search example:
 db.getCollection('MyCollection').find({"email":{$regex:".*foo.*"}})
 ```
 
-
-
 ## Create superuser
 
 User which also has system-wide superuser access.
