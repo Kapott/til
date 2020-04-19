@@ -2,8 +2,6 @@
 
 `window.crypto` is the interface. `window.crypto.subtle` returns an implementation.
 
-
-
 ## Hashing
 
 Supported algorightms:
@@ -13,8 +11,6 @@ Supported algorightms:
 - SHA-384
 - SHA-512
   
-  
-
 Sample implementation of hashing:
 
 ```javascript

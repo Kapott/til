@@ -2,15 +2,9 @@
 
 `.desktop` are usually just clickable shortcuts to start applications. They can, however, also contain 'actions' which start part of the program, or start the program in a certain state. Which makes them fun and hackable for users.
 
-
-
-
-
 ## Example .desktop files to show the syntax
 
     /usr/share/applications
-
-
 
 ### .desktop file : icon locations
 

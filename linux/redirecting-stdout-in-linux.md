@@ -1,4 +1,4 @@
-# Redirecting output
+# Redirecting stdout in linux
 
 Redirect output to file
 
