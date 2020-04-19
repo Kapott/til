@@ -1,6 +1,8 @@
 # Assorted list of string operations
 
+## Reverse a string
 
+Most distro's have the tool `rev` installed by default, which reverses strings piped into it.
 
 ## Reverse dot-separated string
 
