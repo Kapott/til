@@ -12,5 +12,5 @@ Sort al lines, keep unique lines:
 Find all lines that don't contain a word:
 
 ```vim
-;%! grep -v 'a word'
+:%! grep -v 'a word'
 ```
