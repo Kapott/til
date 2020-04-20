@@ -4,12 +4,12 @@ Useful for making backups, and doing forensics alike, finding files by date - or
 
 ## Find files newer than date
 
-```
+```sh
 find /somedir -type f -newermt '2020-03-01'
-``
+```
 
 ## Find files modified between two dates
 
-```
+```sh
 find /somedir -type f -newermt '2020-03-01' ! -newermt '2020-02-01'
 ```
