@@ -15,4 +15,4 @@ Cut word backwards                      Ctrl+w
 
 Good to know:
 
-If you're on a "shit, should've prepended sudo" moment, instead of typing it out and then using `sudo !!1, you can just type `Ctrl+u`, type `sudo`, `Ctrl+y` and you've prepended `sudo` to the command instead.
+If you're on a "shit, should've prepended sudo" moment, instead of typing it out and then using `sudo !!`, you can just type `Ctrl+u`, type `sudo`, `Ctrl+y` and you've prepended `sudo` to the command instead.
