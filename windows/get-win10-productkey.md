@@ -3,6 +3,6 @@
 
 Win + X -> Command prompt (Admin)
 
-```
+```batch
 wmic path SoftwareLicensingService get OA3xOriginalProductKey
 ```
