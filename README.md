@@ -13,17 +13,17 @@
 # JAVASCRIPT
 - [Browser encryption](javascript//browser-encryption.md)  
 # LINUX
-- [A (somewhat) decent Ubuntu server setup](linux//decent-ubuntu-server-setup.md)  
+- [.desktop file tricks](linux//dot-desktop-file-tricks.md)  
 - [Always use grep -a for text files](linux//use-grep-a-for-text.md)  
 - [Assorted list of string operations](linux//reversing-strings.md)  
+- [Automatic updates for ubuntu server](linux//automatic-updates-ubuntu-server.md)  
+- [Bash command line navigation](linux//bash-cli-navigation.md)  
+- [Better tailing for logs](linux//better-tailing-for-logs.md)  
 - [Cgroups](linux//cgroups.md)  
 - [Check expiration date of certificate from shell](linux//check-expiration-date-of-certificate-from-shell.md)  
-- [Command line navigation](linux//commandline-navigation.md)  
 - [Count specific lines in specific files in a directory](linux//count-specific-lines-in-specific-files.md)  
 - [Create a ramdisk for blazingly fast I/O](linux//create-a-ramdisk.md)  
-- [Desktop icons](linux//desktop_icons.md)  
 - [Fix commandline typo's](linux//fix-commandline-typos.md)  
-- [Following logs, tailing files](linux//following-logs.md)  
 - [Generate a sorted list of unique words from a textfile](linux//generate-sorted-list-of-unique-words.md)  
 - [How to unban an ip address banned by fail2ban](linux//how-to-unban-fail2ban.md)  
 - [Ignore certain strings from appearing in your history](linux//ignore-strings-in-bash-history.md)  
@@ -36,6 +36,8 @@
 - [Uptime of a process](linux//process.md)  
 - [Use arguments of the previous command on the current line](linux//use-args-of-previous-command.md)  
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
+# MACOS
+- [Screen and video capture](macos//screen-and-video-capture.md)  
 # MONGODB
 - [Mongodb](mongodb//mongodb.md)  
 # PENTESTING
