@@ -6,11 +6,11 @@ If you want to copy the screenshot so you can paste it somewhere, hold `Ctrl` as
 
 The individual shortcuts for screenshots are:
 
-`Cmd+Shift+3`: Screenshot entire screen.
-`Cmd+Shift+4`, then click and drag: Screenshot part of the screen.
-`Cmd+Shift+4`, then `Spacebar` and select a window or menu bar: Screenshot the application window or menu bar.
-`Cmd+Shift+5`: Open the screenshot tool.
-`Cmd+Shift+6`: Screenshot the touch bar.
+`Cmd+Shift+3`: Screenshot entire screen.  
+`Cmd+Shift+4`, then click and drag: Screenshot part of the screen.  
+`Cmd+Shift+4`, then `Spacebar` and select a window or menu bar: Screenshot the application window or menu bar.  
+`Cmd+Shift+5`: Open the screenshot tool.  
+`Cmd+Shift+6`: Screenshot the touch bar.  
 
 To quit recording your desktop once you're satisfied with the recording, hit `Ctrl+Cmd+Esc`.
 
