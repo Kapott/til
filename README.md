@@ -36,15 +36,11 @@
 - [Uptime of a process](linux//process.md)  
 - [Use arguments of the previous command on the current line](linux//use-args-of-previous-command.md)  
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
-- [e.g.](linux//fix-commandline-typos.md)  
 # MONGODB
-- [Here we initialize the replica](mongodb//mongodb.md)  
-- [Here we start our main MongoDB instances in 3.6.3](mongodb//mongodb.md)  
 - [Mongodb](mongodb//mongodb.md)  
 # PENTESTING
 - [CORS](pentesting//cors.md)  
 - [Clone a website with wget](pentesting//clone-website-with-wget.md)  
-- [Content discovery](pentesting//tools.md)  
 - [Content-security-policy](pentesting//content-security-policy.md)  
 - [DNS over JSON](pentesting//dns-over-json.md)  
 - [DOM Clobbering](pentesting//dom-clobbering.md)  
@@ -69,7 +65,6 @@
 - [Tools collection](pentesting//tools.md)  
 - [Twitter dork collection](pentesting//twitter-dorks.md)  
 - [XSS Auditor](pentesting//xss-auditor-abuse.md)  
-- [You are now in a container with a lot more privileges](pentesting//escaping-docker.md)  
 - [mXSS](pentesting//mxss.md)  
 # SCALA
 - [Scala build tool](scala//sbt.md)  
