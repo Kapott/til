@@ -37,6 +37,7 @@
 - [Use arguments of the previous command on the current line](linux//use-args-of-previous-command.md)  
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
 # MACOS
+- [Must know shortcuts](macos//must-know-shortcuts.md)  
 - [Screen and video capture](macos//screen-and-video-capture.md)  
 # MONGODB
 - [Mongodb](mongodb//mongodb.md)  
