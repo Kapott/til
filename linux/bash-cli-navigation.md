@@ -1,4 +1,6 @@
-# Command line navigation
+# Bash command line navigation
+
+Ever wonder how you can correct that command you were typing without backspacing a bazillion times or holding down arrow keys? Now you know.
 
 ```
 Move to end of line                     Ctrl+e
