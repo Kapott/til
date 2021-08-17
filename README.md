@@ -73,7 +73,7 @@
 - [mXSS](pentesting//mxss.md)  
 # SCALA
 - [Scala build tool](scala//sbt.md)  
-# SOFTWARE-DEVELOPMENT
+# SOFTWARE DEVELOPMENT
 - [On productive coding](software-development//productive-coding.md)  
 # VIM
 - [Copy to clipboard with VIM](vim//copy-to-clipboard.md)  
