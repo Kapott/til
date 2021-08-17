@@ -1,4 +1,4 @@
-# Using access control lists for finegrained rights
+# Using access control lists for fine-grained rights
 
 Sometimes user/group/world rights aren't granular enough.
 

@@ -6,6 +6,9 @@
 
 3. Grep those files for lines which don't start with bar, and output the number of lines
    
+```
     find ./ -printf "%f\n" |
     grep '^foo' |
     xargs grep -cv '^bar'
+```
+

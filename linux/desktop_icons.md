@@ -1,6 +1,6 @@
 # Desktop icons
 
-`.desktop` are usually just clickable shortcuts to start applications. They can, however, also contain 'actions' which start part of the program, or start the program in a certain state. Which makes them fun and hackable for users.
+`.desktop` files are usually just clickable shortcuts to start applications. They can, however, also contain 'actions' which start part of the program, or start the program in a certain state. Which makes them fun and hackable for users.
 
 ## Example .desktop files to show the syntax
 
@@ -30,7 +30,7 @@ Icon format has to be:
 
 ### firefox.desktop : Add profile switching
 
-Pin your firefox desktop link somewhere, rightclick it and find it's location. Then edit the `firefox.desktop` file
+Pin your firefox desktop link somewhere, right-click it and find it's location. Then edit the `firefox.desktop` file
 
 Right where it says `Actions=new-window;new-private-window`, add `profile-switch` to the actions, so it says `Actions=new-window;new-private-window;profile-switch`
 
@@ -43,7 +43,7 @@ Then, at the bottom of the file, add the following:
 
 And save the file.
 
-Now, if you rightclick firefox you should be able to see the default "new window" and "new private window" options, but also a "Choose your profile" option.
+Now, if you right-click firefox you should be able to see the default "new window" and "new private window" options, but also a "Choose your profile" option.
 
 Voila.
 
