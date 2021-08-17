@@ -2,6 +2,7 @@
 
 # This script goes through each directory, searches the file for the 
 # header tag (single #), and uses that as the link's title.
+# Requires ripgrep to be installed!
 
 OUTFILE="README.md"
 rm "$OUTFILE" 2> /dev/null && touch "$OUTFILE"
