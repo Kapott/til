@@ -1,4 +1,4 @@
-# A (somewhat) decent Ubuntu server setup
+# Automatic updates for ubuntu server
 
 ## Enable automatic updates:
 
