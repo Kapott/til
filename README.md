@@ -3,6 +3,7 @@
 # CSS
 - [Set a minimum textsize](css//text-minsize.md)  
 # FORENSICS
+- [Basic forensic commands](forensics//basic-forensic-commands.md)  
 - [Find all files by date(s)](forensics//find-all-files-between-dates.md)  
 - [Trace every action that happens when opening a file](forensics//trace-everything-a-file-does.md)  
 # GIT
