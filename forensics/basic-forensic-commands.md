@@ -1,5 +1,5 @@
 # Basic forensic commands
-Some commands I've picked up through CTF's, hack-the-boxes and sysadmin gigs.  
+
 
 ## General must-know commands
 `date` Check for skewed clock, timezone.  
