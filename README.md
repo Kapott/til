@@ -39,6 +39,7 @@
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
 # MACOS
 - [Must know shortcuts](macos//must-know-shortcuts.md)  
+- [Pipe output to clipboard](macos//pipe-to-clipboard.md)  
 - [Screen and video capture](macos//screen-and-video-capture.md)  
 # MONGODB
 - [Mongodb](mongodb//mongodb.md)  
