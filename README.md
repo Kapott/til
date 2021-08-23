@@ -38,6 +38,7 @@
 - [Uptime of a process](linux//process.md)  
 - [Use arguments of the previous command on the current line](linux//use-args-of-previous-command.md)  
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
+- [View atop logs](linux//view-atop-logs.md)  
 # MACOS
 - [Must know shortcuts](macos//must-know-shortcuts.md)  
 - [Pipe output to clipboard](macos//pipe-to-clipboard.md)  
