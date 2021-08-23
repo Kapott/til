@@ -30,6 +30,7 @@
 - [How to unban an ip address banned by fail2ban](linux//how-to-unban-fail2ban.md)  
 - [Ignore certain strings from appearing in your history](linux//ignore-strings-in-bash-history.md)  
 - [Install docker on ubuntu 18.04](linux//install-docker-ubuntu-1804.md)  
+- [List directory sizes](linux//list-directory-size.md)  
 - [Manipulating the bash history](linux//manipulating-bash-history.md)  
 - [Move all files in subdirectories recursively](linux//move-all-files-in-subdirs-recursively.md)  
 - [Pop out current shell line to $EDITOR](linux//pop-out-line-to-editor.md)  
