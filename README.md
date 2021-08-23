@@ -26,6 +26,7 @@
 - [Create a ramdisk for blazingly fast I/O](linux//create-a-ramdisk.md)  
 - [Fix commandline typo's](linux//fix-commandline-typos.md)  
 - [Generate a sorted list of unique words from a textfile](linux//generate-sorted-list-of-unique-words.md)  
+- [Get all errors for running services](linux//get-all-errors-for-running-services.md)  
 - [How to unban an ip address banned by fail2ban](linux//how-to-unban-fail2ban.md)  
 - [Ignore certain strings from appearing in your history](linux//ignore-strings-in-bash-history.md)  
 - [Install docker on ubuntu 18.04](linux//install-docker-ubuntu-1804.md)  
