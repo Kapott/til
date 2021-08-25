@@ -23,10 +23,10 @@ while read -ru 3 LINE; do
     output=$(echo $LINE | cut -d , -f"$3") # give me the fields out of arg 3
     echo "$output" >4 # log the output of those fields
 
-    echo -ne "Processed $linecount / $totallines lines.\r" # show us some progress
+    printf "Processed $linecount / $totallines lines.\r" # show us some progress
     linecount=$(( $linecount + 1 ))
 done < "$READFILE"
 
-echo -ne "\n\n"
+printf "\n\n"
 
 ```
