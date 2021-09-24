@@ -38,6 +38,7 @@
 - [Progress spinner in bash](linux//progress-spinner-in-bash.md)  
 - [Redirecting stdout in linux](linux//redirecting-stdout-in-linux.md)  
 - [Set up fail2ban on ssh on ubuntu, fast](linux//setup-fail2ban-on-ssh-fast.md)  
+- [Terminal output frozen](linux//terminal-output-frozen.md)  
 - [Uptime of a process](linux//process.md)  
 - [Use arguments of the previous command on the current line](linux//use-args-of-previous-command.md)  
 - [Using access control lists for fine-grained rights](linux//access-control-list.md)  
