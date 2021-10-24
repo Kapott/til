@@ -1,6 +1,6 @@
 Capslock is the epitome of uselessness. A homerow key which sits idle is a waste. Let's steal one of the genious ideas from the `colemak` keyboard layout and remap `CapsLock` to what probably is the third- or fourth-most used key on the keyboard: `Backspace`.
 
-Windows 10: Copy and paste this into a `.reg`file, and execute it.
+Windows 10: Copy and paste this into a `.reg`file, and execute it. After executing it, you should **reboot** for it to take effect.
 
 ```
 REGEDIT4 
