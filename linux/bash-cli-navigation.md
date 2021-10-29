@@ -1,6 +1,6 @@
 # Bash command line navigation
 
-Ever wonder how you can correct that command you were typing without backspacing a bazillion times or holding down arrow keys? Now you know.
+Ever wonder how you can correct that command you were typing without backspacing a bazillion times or holding down arrow keys? Now you know. (Note: These are emacs-based keybinds.)
 
 ```
 Move to end of line                     Ctrl+e
