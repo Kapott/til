@@ -86,6 +86,7 @@
 - [Copy to clipboard with VIM](vim//copy-to-clipboard.md)  
 - [Execute a command in the current vim buffer with %!](vim//execute-command-on-buffer.md)  
 - [VIM Basics](vim//vim-basics.md)  
+- [Write a readonly file without restarting vim](vim//write-a-readonly-file-without-restarting.md)  
 # WINDOWS
 - [Get the wifi password from the command prompt](windows//get-wifi-password.md)  
 - [Get the windows 10 product key from the command prompt](windows//get-win10-productkey.md)  
