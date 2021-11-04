@@ -84,7 +84,9 @@
 - [On productive coding](software-development//productive-coding.md)  
 # VIM
 - [Copy to clipboard with VIM](vim//copy-to-clipboard.md)  
+- [Create a file in vim](vim//create-file-in-vim.md)  
 - [Execute a command in the current vim buffer with %!](vim//execute-command-on-buffer.md)  
+- [Jump between files in vim](vim//jump-between.files.md)  
 - [VIM Basics](vim//vim-basics.md)  
 - [Write a readonly file without restarting vim](vim//write-a-readonly-file-without-restarting.md)  
 # WINDOWS
