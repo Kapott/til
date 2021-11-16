@@ -7,6 +7,7 @@
 - [Find all files by date(s)](forensics//find-all-files-between-dates.md)  
 - [Trace every action that happens when opening a file](forensics//trace-everything-a-file-does.md)  
 # GIT
+- [Assume a file is unchanged](git//assume-unchanged.md)  
 - [Git aliases](git//git-aliases.md)  
 - [Git-flow for feature development](git//git-flow-for-feature-development.md)  
 # HARDWARE
@@ -14,7 +15,6 @@
 # JAVASCRIPT
 - [Browser encryption](javascript//browser-encryption.md)  
 # LINUX
-- [.desktop file tricks](linux//dot-desktop-file-tricks.md)  
 - [Always use grep -a for text files](linux//use-grep-a-for-text.md)  
 - [Assorted list of string operations](linux//reversing-strings.md)  
 - [Automatic updates for ubuntu server](linux//automatic-updates-ubuntu-server.md)  
@@ -24,6 +24,7 @@
 - [Check expiration date of certificate from shell](linux//check-expiration-date-of-certificate-from-shell.md)  
 - [Count specific lines in specific files in a directory](linux//count-specific-lines-in-specific-files.md)  
 - [Create a ramdisk for blazingly fast I/O](linux//create-a-ramdisk.md)  
+- [.desktop file tricks](linux//dot-desktop-file-tricks.md)  
 - [Fix commandline typo's](linux//fix-commandline-typos.md)  
 - [Generate a sorted list of unique words from a textfile](linux//generate-sorted-list-of-unique-words.md)  
 - [Get all errors for running services](linux//get-all-errors-for-running-services.md)  
@@ -51,24 +52,25 @@
 # MONGODB
 - [Mongodb](mongodb//mongodb.md)  
 # PENTESTING
-- [CORS](pentesting//cors.md)  
 - [Clone a website with wget](pentesting//clone-website-with-wget.md)  
 - [Content-security-policy](pentesting//content-security-policy.md)  
+- [CORS](pentesting//cors.md)  
 - [DNS over JSON](pentesting//dns-over-json.md)  
 - [DOM Clobbering](pentesting//dom-clobbering.md)  
 - [Escaping docker](pentesting//escaping-docker.md)  
 - [Fast box recon](pentesting//fast-box-recon.md)  
 - [Github](pentesting//github.md)  
 - [Google dork collection](pentesting//google-dorks.md)  
+- [How to transfer a file using netcat](pentesting//netcat-filetransfer.md)  
 - [HTTP Desync attack](pentesting//http-desync.md)  
 - [HTTP Headers](pentesting//http_headers.md)  
-- [How to transfer a file using netcat](pentesting//netcat-filetransfer.md)  
 - [Iframes](pentesting//iframes.md)  
 - [Lists of exploitable binaries](pentesting//exploitable-binaries.md)  
 - [Magento tricks](pentesting//magento.md)  
 - [Masscan](pentesting//masscan.md)  
 - [Metasploit notes](pentesting//metasploit.md)  
 - [Monitoring linux process without root rights](pentesting//pspy.md)  
+- [mXSS](pentesting//mxss.md)  
 - [MySQL input](pentesting//mysql-in-input-field.md)  
 - [Online password crackers](pentesting//online-password-crackers.md)  
 - [Pivoting users using the setuid bit](pentesting//pivoting-users-via-suid-bit.md)  
@@ -77,7 +79,6 @@
 - [Tools collection](pentesting//tools.md)  
 - [Twitter dork collection](pentesting//twitter-dorks.md)  
 - [XSS Auditor](pentesting//xss-auditor-abuse.md)  
-- [mXSS](pentesting//mxss.md)  
 # SCALA
 - [Scala build tool](scala//sbt.md)  
 # SOFTWARE DEVELOPMENT
