@@ -1,3 +1,6 @@
+| :exclamation:  Repo has been deprecated. I use Obsidian as a PKM system nowadays, and it's |
+|-----------------------------------------|
+
 # AWS
 - [Quickly troubleshoot a full EC2 root partition](aws//full-root-partition.md)  
 # CSS
@@ -9,9 +12,11 @@
 # GIT
 - [Assume a file is unchanged](git//assume-unchanged.md)  
 - [Git aliases](git//git-aliases.md)  
-- [Git-flow for feature development](git//git-flow-for-feature-development.md)  
+- [Git-flow for feature development
+](git//git-flow-for-feature-development.md)  
 # HARDWARE
-- [Intel processor codes](hardware//intel-proc-designations.md)  
+- [Intel processor codes
+](hardware//intel-proc-designations.md)  
 # JAVASCRIPT
 - [Browser encryption](javascript//browser-encryption.md)  
 # LINUX
@@ -21,7 +26,8 @@
 - [Bash command line navigation](linux//bash-cli-navigation.md)  
 - [Better tailing for logs](linux//better-tailing-for-logs.md)  
 - [Cgroups](linux//cgroups.md)  
-- [Check expiration date of certificate from shell](linux//check-expiration-date-of-certificate-from-shell.md)  
+- [Check expiration date of certificate from shell
+](linux//check-expiration-date-of-certificate-from-shell.md)  
 - [Count specific lines in specific files in a directory](linux//count-specific-lines-in-specific-files.md)  
 - [Create a ramdisk for blazingly fast I/O](linux//create-a-ramdisk.md)  
 - [.desktop file tricks](linux//dot-desktop-file-tricks.md)  
