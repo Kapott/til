@@ -1,4 +1,4 @@
-| :exclamation:  Repo has been deprecated. I use Obsidian as a PKM system nowadays, and it's |
+| :exclamation:  Repo has been deprecated. I use Obsidian as a PKM system nowadays and the workflow I use for managing my brain would feel blocked by pseudo-caring about public presentation. |
 |-----------------------------------------|
 
 # AWS
